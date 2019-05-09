@@ -16,9 +16,8 @@ Each club has a list of target players. Target players are organized in five gro
 as follows (the procedure is described in Pantuso (2017)):
 
 | Team | Targets Group |
-
+| --- |:---·|:---:|
 |Arsenal FC | A|
-| --- |:---·|:---:| 
 |Chelsea FC| A|
 |Manchester City| A|
 |Manchester United| A|
