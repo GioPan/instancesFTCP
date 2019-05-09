@@ -63,7 +63,7 @@ Each club has an available budget to spend on the transfer market. According to 
 
 # Other parameters
 
-The remaining parameters are provided in the file default_parameters.txt
+The remaining parameters are provided in the [parameters file](./default_parameters.txt).
 This file contains, separated by spaces, the following information:
 - Number of players that can be registered for competitions (Integer)
 - Maximum number of players a club can own (Integer)
