@@ -1,0 +1,9 @@
+GK 3
+RB 0
+CB 6
+LB 0
+RW 2
+CM 6
+LW 2
+AM 0
+FW 4
