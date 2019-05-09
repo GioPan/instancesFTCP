@@ -1,5 +1,8 @@
+At this repository you will find the instances of the *Football Team Composition Problem* used in the article G. Pantuso & L.M. Hvattum *Maximizing the ratings of a football team with an eye on the financial performance: a chance-constrained model* (**PanH19**).
+The instances have been adapted from those used in the article G. Pantuso *The football team composition problem: a stochastic programming approach*, Journal of Quantitative Analysis in Sports, 2017 (**Pan17**).
+
 # Players
-Players are organized in clubs. The folder clubs includes one text file (.txt) for each of the 20 clubs competing in the EPL 2013/14.
+Players are organized in clubs. The folder [clubs](./clubs) includes one text file (.txt) for each of the 20 clubs competing in the EPL 2013/14.
 Each file is named after the corresponding club, e.g., Arsenal-FC.txt. Each line of the file describes an individual player as follows:
 
 - Player name (String)
@@ -13,7 +16,7 @@ Each file is named after the corresponding club, e.g., Arsenal-FC.txt. Each line
 # Targets
 
 Each club has a list of target players. Target players are organized in five groups, A through E. Each club is assigned a group of targets
-as follows (the procedure is described in Pantuso (2017)):
+as follows (the procedure is described in Pan17:
 
 | Team | Targets Group |
 | --- |:---:|
@@ -48,12 +51,10 @@ Each line of a targets file describes a target player as follows:
 
 # Ratings
 
-Three versions of ratings are provided:
-- R1: Hvattum & Saebo, file ratingsR1.txt
-- R2:..., file ratingsR2.txt
-- R3:
-The structure of the ratings file is
-PlayerName(String)  rating(Float)
+The ratings calculated with the method illustrated in the article PanH19 are provided in the [ratings file](./ratings.txt).
+Each line of the ratings file provides the rating of a different player in the following format:
+- Player name (String)
+- Rating (Real)
 
 # Budgets
 Each club has an available budget to spend on the transfer market. According to Pantuso (2017) this value is set as the maximum between 0 and the net speending of the club in the transfer market of summer 2014. The [budgets file](budgets.txt) contains the budget of each club as follows:
