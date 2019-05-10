@@ -57,9 +57,15 @@ Each line of the ratings file provides the rating of a different player in the f
 - Rating (Real)
 
 # Budgets
-Each club has an available budget to spend on the transfer market. According to Pantuso (2017) this value is set as the maximum between 0 and the net speending of the club in the transfer market of summer 2014. The [budgets file](budgets.txt) contains the budget of each club as follows:
+Each club has an available budget to spend on the transfer market. According to Pan17 this value is set as the maximum between 0 and the net speending of the club in the transfer market of summer 2014. The [budgets file](budgets.txt) contains the budget of each club as follows:
 - Club name (String)
 - Budget in M Euro (Real)
+
+# Formations
+A formation determines the minimum number of players required in each role. The folder [formations](./formations) contains one file for each formation tested in PanH19.
+Each line of a formation file contains the following information:
+- Role (String)
+- Minimum number of players required (Integer)
 
 # Other parameters
 
