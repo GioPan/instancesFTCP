@@ -1,3 +1,5 @@
+# Instances of the Football Team Composition Problem
+
 At this repository you will find the instances of the *Football Team Composition Problem* used in the article G. Pantuso & L.M. Hvattum **Maximizing performance with an eye on the finances: a chance-constrained model for football transfer market decisions** (in what follows **PanH19**).
 The instances have been adapted from those used in the article G. Pantuso **The football team composition problem: a stochastic programming approach**, Journal of Quantitative Analysis in Sports, 2017 (**Pan17**).
 
